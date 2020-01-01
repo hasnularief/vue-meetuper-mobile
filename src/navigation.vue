@@ -10,11 +10,19 @@
   import Screen1 from '@/screens/Screen1.vue'
   import Screen2 from '@/screens/Screen2.vue'
   import Screen3 from '@/screens/Screen3.vue'
+
+  /*
   import {
     createAppContainer,
     createStackNavigator,
     createBottomTabNavigator
-  } from "vue-native-router";
+  } from "vue-native-router"
+
+  */
+
+  import { createAppContainer } from 'react-navigation'
+  import { createStackNavigator } from 'react-navigation-stack'
+  import { createBottomTabNavigator } from 'react-navigation-tabs'
 
   const StackNavigator = createStackNavigator({
     Home: HomeScreen,

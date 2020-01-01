@@ -22,7 +22,7 @@
 
     methods: {
       goToScreen1() {
-        this.navigation.navigate('Screen1')
+        this.navigation.navigate('Screen1', {data: 'Value from HomeScreen'})
         
       }
     }

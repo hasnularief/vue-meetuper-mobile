@@ -20,6 +20,10 @@
       }
     },
 
+    created() {
+      this.title = this.navigation.getParam('data', 'Value not found')
+    },
+
     methods:{
       goToScreen2() {
         this.navigation.navigate('ScreenTwo')
